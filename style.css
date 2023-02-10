@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.square {
+  transition: background-color 5s;
+}
+
+body .square {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.square:hover {
+  background-color: violet;
+}
